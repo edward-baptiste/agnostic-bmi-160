@@ -2,6 +2,7 @@
 
 The goal of this project was to create a lightweight, reusable C driver for the [Bosch BMI160](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160/) inertial measurement unit (IMU), designed to be **hardware abstraction layer (HAL)-independent** and portable across microcontroller platforms. 
 
+> **Note**: For a practical example of how to use this driver, please refer to **https://github.com/edward-baptiste/agnostic-bmi-160-esp32-example**
 
 ## Features
 
