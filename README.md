@@ -1,20 +1,21 @@
-# 🎯 BMI160 Platform-Agnostic Embedded Driver
+# BMI160 Platform-Agnostic Embedded Driver
 
-A lightweight, reusable C driver for the [Bosch BMI160](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160/) inertial measurement unit (IMU), designed to be **hardware abstraction layer (HAL)-independent** and portable across microcontroller platforms.
-
-
-## ✨ Features
-
-- ✅ Platform-agnostic design
-- ✅ HAL interface using function pointers (`read`, `write`, `delay`)
-- ✅ I²C compatible
-- ✅ Implements BMI160 initialization, configuration, self tests, and basic sensor reads
-- ✅ Follows UNIX-style API (open, ioctl, read, etc.)
-- ✅ Can be integrated into RTOS, bare-metal, or test environments
-- ✅ Includes self-test routines and register access helpers
+The goal of this project was to create a lightweight, reusable C driver for the [Bosch BMI160](https://www.bosch-sensortec.com/products/motion-sensors/imus/bmi160/) inertial measurement unit (IMU), designed to be **hardware abstraction layer (HAL)-independent** and portable across microcontroller platforms. 
 
 
-## 🚀 How to Use
+## Features
+
+- Written in C
+- Platform-agnostic design
+- HAL interface using function pointers (`read`, `write`, `delay`)
+- I²C compatible
+- Implements BMI160 initialization, configuration, self tests, and basic sensor reads
+- Follows UNIX-style API (open, ioctl, read, etc.)
+- Can be integrated into RTOS, bare-metal, or test environments
+- Includes self-test routines and register access helpers
+
+
+## How to Use
 
 1. **Include the driver in your project**
 
